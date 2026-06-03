@@ -4,4 +4,4 @@ from .models import Product
 
 class ProductDetailView(DetailView):
     model = Product
-    template_name = "detail.html"
+    template_name = "product_detail.html"
